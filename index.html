@@ -3,31 +3,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Website</title>
+  <title>Product Advertisement</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>Welcome to My Website</h1>
+    <div class="logo">⚡ PowerTech</div>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="#features">Features</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#buy">Buy Now</a>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Hello!</h2>
-      <p>This is my first site hosted on GitHub using Codespaces.</p>
-      <button id="helloBtn">Click me!</button>
-    </section>
-  </main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Unleash the Power of Innovation</h1>
+      <p>The all-new PowerTech X1 — engineered for performance, built for you.</p>
+      <a href="#buy" class="btn">Get Yours Now</a>
+    </div>
+    <img src="https://via.placeholder.com/400x300" alt="Product Image" class="hero-img">
+  </section>
 
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Why Choose PowerTech X1?</h2>
+    <div class="feature-list">
+      <div class="feature">
+        <h3>⚡ Speed</h3>
+        <p>Experience unmatched power and responsiveness.</p>
+      </div>
+      <div class="feature">
+        <h3>🔋 Endurance</h3>
+        <p>Long-lasting performance that won’t let you down.</p>
+      </div>
+      <div class="feature">
+        <h3>💡 Design</h3>
+        <p>Modern. Sleek. Built to impress and perform.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-list">
+      <blockquote>
+        “The PowerTech X1 changed how I work — fast, reliable, and stunning!”
+        <cite>- Alex R.</cite>
+      </blockquote>
+      <blockquote>
+        “Worth every penny. The performance blew me away.”
+        <cite>- Taylor M.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section id="buy" class="cta">
+    <h2>Ready to Own It?</h2>
+    <p>Join thousands of satisfied users today.</p>
+    <a href="#" class="btn">Buy Now</a>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 My Website</p>
+    <p>&copy; 2025 PowerTech. All Rights Reserved.</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
