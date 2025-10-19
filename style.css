@@ -69,6 +69,16 @@ section img {
     width: 45%;
 }
 
+/* Overview Section */
+.overview {
+    background-color: #000;
+    padding-top: 160px;
+}
+
+.overview img {
+    border: 3px solid #FFD700;
+}
+
 /* Pricing Section */
 #pricing {
     flex-direction: column;
